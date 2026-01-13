@@ -76,6 +76,23 @@ Each valid movement counts as one move.
 
 ---
 
+## Par-King GUI
+
+In addition to the console version, the project includes a graphical user interface (GUI) version of the game.
+
+The GUI has been created using **wxGlade** as a visual designer and is built on top of **wxPython**.  
+It provides a window-based interface for interacting with the game instead of using terminal input.
+
+### Requirements for the GUI version
+
+- Python 3.8 or higher  
+- wxPython  
+
+You can install wxPython using pip:
+
+```bash
+pip install wxpython
+
 ## License
 
 This project is intended for academic and learning use.
